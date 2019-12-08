@@ -1,0 +1,38 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    color:$main;
+}
+.container-fluid{
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color:$white;
+}
+ul,
+li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.rate-star{
+    display: inline-block;
+    margin-right: 50px;
+}
